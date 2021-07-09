@@ -1,0 +1,124 @@
+/* fichier contenant le style de la page web */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 233, 233);
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.info-text {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.start-button {
+  border-radius: 28px;
+  min-height: 30px;
+  min-width: 70px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 8px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.red {
+  background-color: rgb(206, 52, 52, 0.5);
+  border: 1px solid rgb(204, 45, 64);
+  text-shadow: 0px 1px 0px rgb(133, 27, 27);
+}
+
+.green {
+  background-color: rgb(68, 199, 103, 0.5);
+  border: 1px solid rgb(24, 171, 41);
+  text-shadow: 0px 1px 0px rgb(47, 102, 39);
+}
+
+.yellow {
+  background-color: #eaec46;
+  border: 1px solid #e6e336;
+  text-shadow: 0px 1px 0px #bcbe3c;
+}
+
+.blue {
+  background-color: #5e4fe4;
+  border: 1px solid #3648e4;
+  text-shadow: 0px 1px 0px #3643b4;
+}
+
+.button {
+  border-radius: 28px;
+  min-height: 70px;
+  min-width: 70px;
+  cursor: pointer;
+  font-size: 17px;
+  margin: 8px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px black;
+}
+
+.red-animation {
+  background-color: #ffa3a3;
+}
+
+.green-animation {
+  background-color: #a8ffb8;
+}
+
+.yellow-animation {
+  background-color: #f4ffa3;
+}
+
+.blue-animation {
+  background-color: #99cfff;
+}
+
+.green:hover {
+  background-color: #58b42a;
+}
+
+.blue:hover {
+  background-color: #213aaa;
+}
+
+.red:hover {
+  background-color: #b63b3b;
+}
+
+.yellow:hover {
+  background-color: #e2e04e;
+}
+
+.start-button:hover {
+  background-color: rgb(233, 224, 224);
+}
+
+.button:active {
+  position: relative;
+  top: 2px;
+}
+
+.hidden {
+  display: none;
+}
