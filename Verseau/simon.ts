@@ -4,6 +4,7 @@ function startGame(): void {
 
 // Ajout d'une nouvelle couleur aléatoire à la séquence
 function addColorToComputerSequence(): void {
+  computerSequence.push(Math.floor(Math.random() * 4));
 }
 
 // Appelé lorsqu'un bouton de couleur est appuyé.
