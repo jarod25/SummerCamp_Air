@@ -56,13 +56,13 @@ h1 {
 }
 
 .yellow {
-  background-color: #eaec46;
+  background-color: rgb(234, 236, 70, 0.5);
   border: 1px solid #e6e336;
   text-shadow: 0px 1px 0px #bcbe3c;
 }
 
 .blue {
-  background-color: #5e4fe4;
+  background-color: rgb(94, 79, 228, 0.5);
   border: 1px solid #3648e4;
   text-shadow: 0px 1px 0px #3643b4;
 }
@@ -87,7 +87,7 @@ h1 {
 }
 
 .yellow-animation {
-  background-color: #f4ffa3;
+  background-color: #f5c647;
 }
 
 .blue-animation {
